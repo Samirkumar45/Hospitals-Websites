@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Hospitals</title>
+    <link href="./style.css" rel="stylesheet" type="text/css" />
+    <link href="./utilities.css" rel="stylesheet" />
+    <!-- Normalise -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="page-wrapper">
+        <!-- header -->
+        <header class="header">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="navbar-content d-flex justify-content-between align-item-center">
+                        <div class="brand-and-toggler d-flex align-items-center justify-content-between">
+                            <a href="#" class="navbar-brand d-flex align-items-center">
+                                <span class="brand-shape d-inline-block text-white">M</span>
+                                <span class="brand-text fw-7">Medimoor</span>
+                            </a>
+                            <button type="button" class="d-none navbar-show-btn">
+                                <i class="fas fa-bars"></i>
+                            </button>
+                        </div>
+                        <div class="navbar-box">
+                            <button type="button" class="navbar-hide-btn">
+                                <i class="fas-fa-times"></i>
+                            </button>
+                            <ul class="navbar-nav d-flex align-items-center">
+                                <li class="nav-items">
+                                    <a href="#" class="nav-link text-white nav-active text-nowrap">Home</a>
+                                    <a href="#" class="nav-link text-white text-nowrap">Find a Doctor</a>
+                                    <a href="#" class="nav-link text-white text-nowrap">Apps</a>
+                                    <a href="#" class="nav-link text-white text-nowrap">Testimonials</a>
+                                    <a href="#" class="nav-link text-white text-nowrap">About us</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+            <div class="element-one">
+                <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/element-img-1.png"
+                    alt="" />
+            </div>
+            <div class="banner">
+                <div class="container">
+                    <div class="banner-content">
+                        <div class="banner-left">
+                            <div class="content-wrapper">
+                                <h1 class="banner-title">Virtual Healthcare <br> for you </h1>
+                                <p class="text text-white">Medimoor provides progressive, and affordable healthcare,
+                                    accessible on
+                                    mobile and online for everyone</p>
+                                <a href="#" class="btn btn-secondary">Consult today</a>
+                            </div>
+                        </div>
+                        <div class="banner-right d-flex align-items-center justify-content-end">
+                            <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/banner-image.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- end of header -->
+        <main>
+            <section class="sc-services">
+                <div class="services-shape">
+                    <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/curve-shape-1.png"
+                        alt="">
+                </div>
+                <div class="container">
+                    <div class="services-content">
+                        <div class="title-box text-center">
+                            <div class="content-wrapper">
+                                <h3 class="title-box-name">Our services</h3>
+                                <div class="title-separator mx-auto"></div>
+                                <p class="text title-box-text">We provide you the best choices for you. Adjust it to
+                                    your health needs
+                                    and make sure you undergo treatment with our highly qualified doctors you can
+                                    consult with us which
+                                    type of service is suitable for your health</p>
+                            </div>
+                        </div>
+                        <div class="services-list">
+                            <div class="services-items">
+                                <div class="item-icon">
+                                    <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/service-icon-1.png"
+                                        alt="service icon">
+                                </div>
+                                <h5 class="item-title fw-7">
+                                    Search doctor
+                                </h5>
+                                <p class="text">Choose your doctor from thousands of specialist, general and trusted
+                                    Hospitals</p>
+                            </div>
+                            <div class="services-items">
+                                <div class="item-icon">
+                                    <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/service-icon-2.png"
+                                        alt="service icon">
+                                </div>
+                                <h5 class="item-title fw-7">
+                                    Online pharmacy
+                                </h5>
+                                <p class="text">Buy your medicines with our mobiles application with a simple dilivery
+                                    system</p>
+                            </div>
+                            <div class="services-items">
+                                <div class="item-icon">
+                                    <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/service-icon-3.png"
+                                        alt="service icon">
+                                </div>
+                                <h5 class="item-title fw-7">
+                                    Consultation
+                                </h5>
+                                <p class="text">Free consultation with our trusted doctors and get the best
+                                    recommendations</p>
+                            </div>
+                            <div class="services-items">
+                                <div class="item-icon">
+                                    <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/service-icon-4.png"
+                                        alt="service icon">
+                                </div>
+                                <h5 class="item-title fw-7">
+                                    Details info
+                                </h5>
+                                <p class="text">Free consultation with our trusted doctors and get the best
+                                    recommendations</p>
+                            </div>
+                            <div class="services-items">
+                                <div class="item-icon">
+                                    <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/service-icon-5.png"
+                                        alt="service icon">
+                                </div>
+                                <h5 class="item-title fw-7">
+                                    Emergency care
+                                </h5>
+                                <p class="text">You can get 24/7 urgent care for yourself or your children and your
+                                    lovely family.</p>
+
+                            </div>
+                            <div class="services-items">
+                                <div class="item-icon">
+                                    <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/service-icon-6.png"
+                                        alt="service icon">
+                                </div>
+                                <h5 class="item-title fw-7">
+                                    Tracking
+                                </h5>
+                                <p class="text">Track and save your mental history and mental data.</p>
+
+                            </div>
+                        </div>
+                        <div class="d-flex align-items-center justify-content-center services-main-btn">
+                            <button type="button" class="btn btn-primary-outline">Learn more</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-grid sc-grid-one">
+                <div class="container">
+                    <div class="grid-content d-grid align-items-center">
+                        <div class="grid-img">
+                            <img src="https://github.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/blob/master/assets/images/health-care-img.png"
+                                alt="">
+                        </div>
+                        <div class="grid-text">
+                            <div class="content-wrapper text-start">
+                                <div class="title-box">
+                                    <h3 class="title-box-name text-white">Leading healthcare providers</h3>
+                                    <div class="title-separator mx-auto"></div>
+                                </div>
+                                <p class="text title-box-text text-white">Medimoor providers progressive, and
+                                    affordable healthcare, accessible on mobile and online for everyone. To us, it's
+                                    not just work. We take pride in the solutions we diliver</p>
+                                <button type="button" class="btn btn-white-outline">Learn more</button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="sc-grid sc-grid-two">
+                <div class="container">
+                    <div class="grid-content d-grid align-items-center">
+                        <div class="grid-img">
+                            <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/download-image.png"
+                                alt="">
+                        </div>
+                        <div class="grid-text">
+                            <div class="content-wrapper text-start">
+                                <div class="title-box">
+                                    <h3 class="title-box-name">Download our mobile apps</h3>
+                                    <div class="title-separator mx-auto"></div>
+                                </div>
+                                <p class="text title-box-text ">Our dedicated patient engagement app and web portal allow you to access information instantaneously (no trdeous form, long calls, or administrative hassle) and securely</p>
+                                <button type="button" class="btn btn-primary-outline">Download
+                                    <img src="https://raw.githubusercontent.com/prabinmagar/medimoor-hospital-website-design-using-html-css-and-js/master/assets/images/arrow-down.svg" alt="">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+
+    <!-- Jquery cdn -->
+    <script src="https://code.jquery.com/jquery-3.6.4.js"
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" crossorigin="anonymous"></script>
+    <!-- owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+        integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
